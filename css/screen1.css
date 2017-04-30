@@ -1,0 +1,97 @@
+#wrapper{
+    max-width: 350px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+nav{
+    order: 1;
+    font-size: 1.4rem;
+    margin: 10px 0;
+    width: 100%;
+}
+
+#nav-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#logo{
+    width: 60px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+
+li{
+    padding: 5px;
+    display: inline-block;
+}
+
+.icon{
+    order: 2;
+    margin: 0 auto;
+}
+
+#discuss{
+    height: 248px;
+    width: 100%;
+}
+
+#titleA, #titleB{
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 10px;
+}
+
+#titleA{
+    background-color: white;
+    width: 100%;
+}
+
+#titleB{
+    background: black;
+    color: white;
+    width: 100%;
+}
+
+aside{
+    display: none;
+}
+
+#nd-nav{
+    display: none;
+}
+
+.img img{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+.title-box{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic{
+    position: relative;
+    background-image: url(../img/discuss01.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 248px;
+    width: 100%;
+}
+
+time{
+    margin: 20px 0;
+}

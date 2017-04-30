@@ -1,0 +1,100 @@
+#wrapper{
+    max-width: 480px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+nav{
+    font-size: 1.7rem;
+    width: 420px;
+}
+
+#nav-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#logo{
+    width: 60px;
+}
+
+ul{
+    list-style: none;
+    text-align: right;
+    padding: 0px;
+}
+
+li{
+    padding: 10px;
+    display: inline-block;
+}
+
+#discuss{
+    height: 248px;
+    width: 100%;
+}
+
+#titleA, #titleB{
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 10px;
+}
+
+#titleA{
+    background-color: white;
+    width: 100%;
+}
+
+#titleB{
+    background: black;
+    color: white;
+    width: 100%;
+}
+
+aside{
+    display: none;
+}
+
+#nd-nav{
+    display: none;
+}
+
+#archives{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.arti-with-pic{
+    width: 50%;
+    padding: 0 5px;
+}
+
+.img img{
+    width: 100%;
+    padding: 20px 0;
+}
+
+.title{
+    padding-bottom: 20px;
+}
+
+.title-box{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic{
+    position: relative;
+    background-image: url(../img/discuss01.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 248px;
+    width: 100%;
+}
+
+time{
+    padding: 20px 0;
+}

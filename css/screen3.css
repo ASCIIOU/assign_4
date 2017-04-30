@@ -1,0 +1,103 @@
+#wrapper{
+    max-width: 768px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+nav{
+    font-size: 1.7rem;
+}
+
+#nav-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#logo{
+    width: 100px;
+}
+
+
+ul{
+    list-style: none;
+    text-align: right;
+}
+
+li{
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.pic{
+    position: relative;
+    background-image: url(../img/discuss01.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 445px;
+    width: 100%;
+}
+
+.title-box{
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+    text-align: right;
+}
+
+#titleA, #titleB{
+    font-size: 2.2rem;
+    padding: 15px 0;
+    line-height: 30px;
+    display: inline-flex;
+}
+
+#titleA{
+    background-color: white;
+}
+
+#titleB{
+    background-color: black;
+    color: white;
+}
+
+.img img{
+    width: 100%;
+}
+
+.option{
+    width: 25%;
+    text-align: center;
+}
+
+.option:nth-child(1), .option:nth-child(2), .option:nth-child(3){
+    border-right-style: solid;
+    border-width: 0.5px;
+    border-color: rgb(217,239,236);
+}
+
+.option h3{
+    padding: 5px;
+}
+
+.option p{
+    display: none;
+}
+
+aside{
+    display: none;
+}
+
+#nd-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#archives{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.arti-with-pic{
+    width: 25%;
+    padding: 0 5px;
+}
