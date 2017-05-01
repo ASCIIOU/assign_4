@@ -4,14 +4,14 @@
     margin: 0 auto;
 }
 
-nav{
-    font-size: 1.7rem;
-    width: 420px;
-}
-
 #nav-info{
     display: flex;
     flex-wrap: wrap;
+}
+
+nav{
+    font-size: 1.7rem;
+    width: 420px;
 }
 
 #logo{
