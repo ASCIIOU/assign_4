@@ -4,16 +4,16 @@
     margin: 0 auto;
 }
 
+#nav-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 nav{
     order: 1;
     font-size: 1.4rem;
     margin: 10px 0;
     width: 100%;
-}
-
-#nav-info{
-    display: flex;
-    flex-wrap: wrap;
 }
 
 #logo{
